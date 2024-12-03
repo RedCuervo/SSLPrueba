@@ -1,0 +1,253 @@
+ /*Tabla Estilos*/
+ .tablita {
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   /* Ajusta el ancho según tus necesidades */
+   overflow-x: auto;
+   /* Añade scroll horizontal si es necesario */
+   border: 2px solid #000000;
+ }
+
+ .tabla tr {
+   border-bottom: 2px solid #000;
+   /* Añade un borde inferior a cada fila */
+ }
+
+ .column {
+   text-align: center;
+ }
+
+ .tabla td,
+ .tabla th {
+   border-right: 2px solid #000;
+   /* Añade un borde derecho a todas las celdas */
+ }
+
+ .tabla th:last-child,
+ .tabla td:last-child {
+   border-right: none;
+   /* Elimina el borde derecho de la última columna */
+ }
+
+ table tr th {
+   width: 500px;
+   height: 50px;
+   color: white;
+   background-color: rgb(133, 71, 122);
+ }
+
+ /* Para el estilo de las nuevas celdas */
+ td {
+   border: 1px solid #000000;
+
+   height: 25px;
+ }
+
+ /*--------------------------*/
+
+
+ .info-product {
+   padding: 15px 30px;
+   line-height: 2;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+
+ .info-product button {
+   border: none;
+   background: none;
+   background-color: #000;
+   color: #fff;
+   padding: 15px 10px;
+   cursor: pointer;
+ }
+
+ .item {
+   border-radius: 10px;
+ }
+
+ .item:hover {
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+ }
+
+ .item img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 10px 10px 0 0;
+   transition: all .5s;
+ }
+
+ .item figure {
+   overflow: hidden;
+ }
+
+ .item:hover img {
+   transform: scale(1.2);
+ }
+
+
+
+
+ #espacio {
+   margin-top: 100px;
+ }
+
+ #imagenes {
+   width: 250px;
+   height: 300px;
+   margin-left: 20%;
+   margin-right: 20%;
+
+ }
+
+ #diseño {
+   font-size: 15px;
+   margin-left: 20px;
+   text-align: center;
+   padding-bottom: 20px;
+   width: 300px;
+   height: 400px;
+
+ }
+
+ #tablaPersonas {
+
+   margin-top: 20px;
+
+ }
+
+ .center-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ /*carrito de compras */
+ .icon-cart {
+   width: 60px;
+   /* Modifica el tamaño del icono */
+   height: 60px;
+   /* Modifica el tamaño del icono */
+   stroke: #000;
+   /* Color del borde */
+   fill: #fff;
+   /* Color del interior del icono */
+ }
+
+ .icon-cart:hover {
+   cursor: pointer;
+ }
+
+
+ .container-icon {
+   position: relative;
+ }
+
+ .count-products {
+   position: absolute;
+   top: 55%;
+   right: 0;
+
+   background-color: #000;
+   color: #fff;
+   width: 25px;
+   height: 25px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+ }
+
+ #contador-productos {
+   font-size: 12px;
+ }
+
+ .container-cart-products {
+   position: absolute;
+   top: 50px;
+   right: 0;
+
+   background-color: #fff;
+   width: 400px;
+   z-index: 1;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+   border-radius: 10px;
+
+ }
+
+ .cart-product {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px;
+
+   border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+ }
+
+ .info-cart-product {
+   display: flex;
+   justify-content: space-between;
+   flex: 0.8;
+ }
+
+ .titulo-producto-carrito {
+   font-size: 20px;
+ }
+
+ .precio-producto-carrito {
+   font-weight: 700;
+   font-size: 20px;
+   margin-left: 10px;
+ }
+
+ .cantidad-producto-carrito {
+   font-weight: 400;
+   font-size: 20px;
+ }
+
+ .icon-close {
+   width: 25px;
+   height: 25px;
+ }
+
+ .icon-close:hover {
+   stroke: red;
+   cursor: pointer;
+ }
+
+ .cart-total {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0;
+   gap: 20px;
+ }
+
+ .cart-total h3 {
+   font-size: 20px;
+   font-weight: 700;
+ }
+
+ .total-pagar {
+   font-size: 20px;
+   font-weight: 900;
+ }
+
+ .cart-empty {
+   padding: 20px;
+   text-align: center;
+ }
+
+ .hidden-cart {
+   display: none;
+ }
+
+ .hidden{
+  display: none;
+}
